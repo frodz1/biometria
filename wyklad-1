@@ -1,0 +1,125 @@
+kontakt na teams
+kolos 1termin - 3.02.2027
+kolos 2termin - 10.02.2027
+
+konsulatacje -> poniedzilek 11:00-13:00 pokoj 401, budynek C5
+
+strona www.cs.pwr.edu.pl/wodo
+
+
+kolos - dwa typy pytan (krotkie i dlugie) -> NOWE PYTANIA BEDA :(
+1 forma -> szybkie strzaly
+2 forma -> dluzsza wypowiedz
+
+ostatni wyklad powtorzeniowy :)
+
+####################################################################
+TERAZ TAKI FR WYKLAD JUZ
+
+trzy rodzjae poswiadczen
+
+1 - wiedza -> haslo, pin, dane (pesel, sekret, na pytanie)
+2 - > posiadanie -> klucz sprzetowy, pendrive, karta)
+3 Bycie -> biometria (wykorzystanie cech fizycznych, behawioralnych)
+
+
+Strong customer authentication (SCA)
+
+- jako 2FA
+- wymaga uzycia dwoch czynnikow uwierzytelniajacych
+- wprowadzanie do podniesienia bezpienczenstaw operacji elektornicznych
+- uscisla co i kiedy mozna uznac za czynnik uwierzytelniajacy
+
+
+z roznch rodzajow poswiadczen bo jak cie kompromituja na jednym to juz gg 
+czesciej manipuljesz ziomka zeby sam sie okradl
+architektorua PSD2 
+backup sobie zrob
+
+
+czym jest biometia ? -> nauka zajmujaca sie mierzeniem i naaliza unikalnych cech fizucznyuch i behawioralnych czlowieka w celu identufikacji lub uwierzytelniniania
+
+system biometryczny to narzedzie ktore wykorzystuje cechy biometryczne do indetyfikacji lub uwierzytelniania ludzi
+
+
+podstatowe definicje 
+
+identyfikacja - rozpoznanie tozsamosci (np na podstawie jakeis cechy biometrycznej)
+weryfikacja (uwierzytelninei) to potwierdzenie zadeklarowwanej tozsamosci (login haslo, nr tel, odcisk palca)
+autoryzacja to przyznanie lub odomwa dostepu do zasobow na podstawie uprawnien
+
+
+biometria
+- cechy fizyczne (czas jest lekko problemem, mozesz stracic jakies czesci ciala)
+- cechy behawioralne
+- wspolczynnniki bledow FAR & FRR (False acceptance rate [nie mial a sie dostal] i False rejection rate [powinien sie dostac a nie dostal]
+- poziom roznorodnosci
+
+fala mozgowa p300 -------|
+podpis reczny		 |
+glos *			 | > cechy behawioralne	
+chód			 |
+keystroking -------------
+
+
+
+odcisk palca ------------
+wzor teczkowki		|
+ksztalt ucha		| > cechy fizyczne
+naczynia krwionosne	|
+geometria twarzy -------- 
+parametry systemow biometrycznych 
+
+FAR ( False acceptance rate)
+FRR (False rejection Rate
+EER (Equal error rate)       tutaj zrob wykres						
+
+ *						*
+	*	FAR			 *FRR
+		*			*
+			*	*
+			** (EER)
+		*		*	
+	*				*
+*						*
+
+
+NIE WIESZ CO MASZ POD MASKA W BIOMETRII
+
+wzorzec na twarz jest porownywany lokalnie wszystko
+
+
+nie wiesz jaki blad mial miejsce albo zostaliscie przyjeci albo nie i nigdy nie wiesz banki uzywaja twoich sensorow bo sa to lepsze urzadzenia
+
+false rejection 10^-5 to jest git wtedy (min 10^-4)
+
+
+ataki prezentacyjne (tez cos bedzie)
+
+te metryki sa do zero effort forgery (tu tez cos do tego dopisz) wartosci sa usrednione rozne dla konkretnych tozsamosci)
+
+
+jestesmt w stanie poswiecic TROCHE usibility dla security
+
+
+proponowanie testu 
+
+wezmiesz ile razu FRR dostales
+
+
+unikalnosc cech biometrycznych (piramida)
+
+dna
+wzor teczowki
+uklad zyl
+podpis odreczny
+keystroking
+
+
+scenariusze uzycia
+
+uwierzytlnianie (1:1)
+identufikacja (1:N)
+ciagla werysfikacja
+biometryczny link
+rejestracja wejscia / wyjscia
